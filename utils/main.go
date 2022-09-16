@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("rbac main")
+	fmt.Println("gin rbac utils main")
 }
