@@ -1,3 +1,3 @@
-module github.com/xushunbin/gin-rbac
+module github.com/xushunbin/ginrbac
 
 go 1.16
