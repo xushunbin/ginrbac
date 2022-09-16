@@ -1,4 +1,4 @@
-package gin_rbac
+package main
 
 import "fmt"
 
