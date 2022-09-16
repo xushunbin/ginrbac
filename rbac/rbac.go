@@ -22,7 +22,8 @@ func New(ctx *gin.Context, db *gorm.DB, rds *redis.Client) *RBAC {
 	}
 }
 
-func RBACMiddleware() gin.HandlerFunc {
+// Middleware gin中间件
+func Middleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		fmt.Println("RBAC Middleware 123", c.FullPath())
 		c.Next()
