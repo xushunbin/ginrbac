@@ -1,5 +1,3 @@
 package ginrbac
 
-func main() {
 
-}
