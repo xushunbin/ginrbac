@@ -24,7 +24,7 @@ func New(ctx *gin.Context, db *gorm.DB, rds *redis.Client) *RBAC {
 
 func RBACMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
-		fmt.Println("RBAC Middleware", c.FullPath())
+		fmt.Println("RBAC Middleware 123", c.FullPath())
 		c.Next()
 	}
 }
